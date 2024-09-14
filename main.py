@@ -17,8 +17,6 @@ result_text = "It gives 1 (True), someone among players must have paid then." if
 
 print(f"""
 You share {player_one_two} with player two and {player_one_three} with player three.
-Player two share {player_one_two} with player one and {player_three_two} with player three.
-Player three share {player_one_three} with player one and {player_three_two} with player two.  
 
 You say {player_one}.
 Player two says {player_two}.
