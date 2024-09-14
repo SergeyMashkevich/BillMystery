@@ -13,7 +13,6 @@ player_two = round(random.random()) if player_one_has_paid == 0 else player_one_
 player_three = round(random.random()) if player_one_has_paid == 0 else player_one_two ^ player_three_two
 
 
-
 result = player_one ^ player_two ^ player_three
 
 result_text = "It gives 1 (True), someone among players must have paid then." if result == 1 else "It gives 0 (False) Someone else must have paid then."
