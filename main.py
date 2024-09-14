@@ -7,6 +7,7 @@ player_three_two = round(random.random())
 
 player_one_has_paid = input("Have you paid? (type 1 if yes or 0 if not): ")
 
+
 player_one = player_one_two ^ player_one_three if player_one_has_paid == "0" else int(not(player_one_two ^ player_one_three))
 player_two = round(random.random()) if player_one_has_paid == 0 else player_one_two ^ player_three_two
 player_three = round(random.random()) if player_one_has_paid == 0 else player_one_two ^ player_three_two
